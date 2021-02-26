@@ -6,9 +6,8 @@ url = 'https://publicaccess.wycombe.gov.uk/idoxpa-web/search.do?action=advanced'
 class mycrawler(proxy_gen):
 
     def __init__(self):
-        proxy_gen.__init__(self)
-        pr = self.get_a_proxy()
-
+        # proxy_gen.__init__(self)
+        # pr = self.get_a_proxy()
         pass
 
 
@@ -64,4 +63,4 @@ class mycrawler(proxy_gen):
 
 
 myc = mycrawler()
-myc.getlinks(url,startDate='01-01-2021' , endDate = '05-01-2021')
+myc.getlinks(url,startDate='01-01-2021' , endDate = '15-01-2021')
