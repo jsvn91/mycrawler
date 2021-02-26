@@ -17,8 +17,8 @@ caseAddressType: Application
 searchCriteria.address:
 date(applicationReceivedStart):
 date(applicationReceivedEnd):
-date(applicationValidatedStart): 01/02/2021
-date(applicationValidatedEnd): 02/02/2021
+date(applicationValidatedStart): 01-01-2021
+date(applicationValidatedEnd): 15-01-2021
 date(applicationCommitteeStart):
 date(applicationCommitteeEnd):
 date(applicationDecisionStart):
