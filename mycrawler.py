@@ -13,21 +13,22 @@ class mycrawler(proxy_gen):
 
 
 
-    def gethtmldata(self,url):
+    def gethtmldata(self,url,startDate , endDate):
 
 
         # parse link --------------------
 
         url = "https://publicaccess.wycombe.gov.uk/idoxpa-web/advancedSearchResults.do?action=firstPage"
         data = self.get_form_data('lib/formdata')
-
+        data['date(applicationValidatedStart)'] = startDate.replace('-', "/")
+        data['date(applicationValidatedEnd)'] = endDate.replace('-','/')
         r = requests.post(url, data=data)
         return r
 
-    def getlinks(self,url):
+    def getlinks(self,url,startDate , endDate):
 
         #----------------- get first link
-        r = self.gethtmldata(url)
+        r = self.gethtmldata(url,startDate , endDate)
         from lxml import html
 
         try:
@@ -58,10 +59,9 @@ class mycrawler(proxy_gen):
         for i, k in enumerate(toc):
             if 'Proposal' in k:
                 print('the proposal value of first link is  : ', val[i])
-
         pass
 
 
 
 myc = mycrawler()
-myc.getlinks(url)
+myc.getlinks(url,startDate='01-01-2021' , endDate = '05-01-2021')
