@@ -1,0 +1,28 @@
+searchCriteria.reference:
+searchCriteria.planningPortalReference:
+searchCriteria.alternativeReference:
+searchCriteria.description:
+searchCriteria.applicantName:
+searchCriteria.caseType:
+searchCriteria.ward:
+searchCriteria.parish:
+searchCriteria.conservationArea:
+searchCriteria.agent:
+searchCriteria.caseStatus:
+searchCriteria.caseDecision:
+searchCriteria.appealStatus:
+searchCriteria.appealDecision:
+searchCriteria.developmentType:
+caseAddressType: Application
+searchCriteria.address:
+date(applicationReceivedStart):
+date(applicationReceivedEnd):
+date(applicationValidatedStart): 01/02/2021
+date(applicationValidatedEnd): 02/02/2021
+date(applicationCommitteeStart):
+date(applicationCommitteeEnd):
+date(applicationDecisionStart):
+date(applicationDecisionEnd):
+date(appealDecisionStart):
+date(appealDecisionEnd):
+searchType: Application
