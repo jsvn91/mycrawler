@@ -1,18 +1,19 @@
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
-Cache-Control: max-age=0
-Connection: keep-alive
-Content-Length: 879
-Content-Type: application/x-www-form-urlencoded
-Cookie: JSESSIONID=scr-nw0ftQmr4gPikBH4MZAmqiT3Pq6EBMdOBkYe.wdc-vm-dmz15; __utma=228102172.1022733266.1614315604.1614315604.1614315604.1; __utmc=228102172; __utmz=228102172.1614315604.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; __utmb=228102172.4.10.1614315604
-DNT: 1
-Host: publicaccess.wycombe.gov.uk
-Origin: https://publicaccess.wycombe.gov.uk
-Referer: https://publicaccess.wycombe.gov.uk/idoxpa-web/advancedSearchResults.do?action=firstPage
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: same-origin
-Sec-Fetch-User: ?1
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+authority: www.amazon.fr
+method: GET
+path: /s?i=computers&rh=n%3A427937031&fs=true&qid=1613732569&ref=sr_pg_1
+scheme: https
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+accept-encoding: gzip, deflate, br
+accept-language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+cache-control: max-age=0
+cookie: session-id=258-9438205-4958167; i18n-prefs=EUR; ubid-acbfr=257-3944604-1753430; session-token="MbXWkSr9TzUOhR8jrIZTnZNn5Mzb9BZJkKrpibB5LQ0Y5XJ7XVkcJnb3xQJNW/LclJbLZH0+FCt1fHx/4uJ7xY7uCc256eW1S9mUpLCtKZJ/gFjQ0PJcyZZ05ytikCOUIMYAxzMLJd5EIWOebNf1+Ecd10qb94pxYJ3i7AbigwifqP3IKi/C5e6JMsl4iinUVSdRQEhKQnhf2ehPIkyn1Q7ZpaDlG8lpozHJMzCWeK33AuzBvgHDQkDu6s3NVhBJ+LQDkO8FQhQ="; session-id-time=2082754801l; csm-hit=tb:7C7K38189VPGHP9SSGTM+s-GZ2GGYZVQG7124M5ZXKS|1614781020773&t:1614781020773&adb:adblk_no
+dnt: 1
+downlink: 10
+ect: 4g
+rtt: 150
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36

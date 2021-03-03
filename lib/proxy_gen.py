@@ -32,6 +32,7 @@ class proxy_gen():
             raise ('Error downloading Proxies...')
 
     def get_a_proxy(self):
+        self.proxies= self.get_all_proxies()
         lenpr = len(self.proxies)
         """http_proxy  = "http://10.10.1.10:3128"
             https_proxy = "https://10.10.1.11:1080"
